@@ -211,8 +211,11 @@ GEM
     zeitwerk (2.6.6)
 
 PLATFORMS
+  PLATFORMS
+  arm64-darwin-21
   arm64-darwin-22
   ruby
+  x86_64-darwin-20
   x86_64-linux
 
 DEPENDENCIES
