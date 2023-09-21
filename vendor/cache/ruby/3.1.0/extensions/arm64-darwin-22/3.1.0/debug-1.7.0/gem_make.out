@@ -1,0 +1,16 @@
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/debug-1.7.0/ext/debug
+/Users/sammalik/.rvm/rubies/ruby-3.1.1/bin/ruby -I /Users/sammalik/.rvm/rubies/ruby-3.1.1/lib/ruby/3.1.0 -r ./siteconf20221206-3807-jc0i.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 debug.bundle ./.gem.20221206-3807-ytjw5d/debug

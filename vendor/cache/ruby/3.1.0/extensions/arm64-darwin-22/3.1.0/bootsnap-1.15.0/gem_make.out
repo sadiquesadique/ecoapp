@@ -1,0 +1,15 @@
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/bootsnap-1.15.0/ext/bootsnap
+/Users/sammalik/.rvm/rubies/ruby-3.1.1/bin/ruby -I /Users/sammalik/.rvm/rubies/ruby-3.1.1/lib/ruby/3.1.0 -r ./siteconf20221206-3807-u2nhj.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/bootsnap-1.15.0/ext/bootsnap
+make DESTDIR\= install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20221206-3807-wia1sk/bootsnap

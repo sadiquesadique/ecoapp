@@ -1,0 +1,15 @@
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/sammalik/.rvm/rubies/ruby-3.1.1/bin/ruby -I /Users/sammalik/.rvm/rubies/ruby-3.1.1/lib/ruby/3.1.0 -r ./siteconf20221206-3807-yswqmx.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/sammalik/Desktop/practice/practice/vendor/cache/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20221206-3807-3j2feu/skiptrace/internal
