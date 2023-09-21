@@ -27,6 +27,7 @@ development:
 test:
   <<: *default
   adapter: mysql2
+  username: travis
   database: practice_test
   username: travis
   encoding: utf8
