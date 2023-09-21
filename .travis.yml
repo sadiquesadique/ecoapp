@@ -23,7 +23,7 @@ services:
 
 before_install:
   - gem install bundler -v 2.3.7
-  - mysql -e 'CREATE DATABASE practice_test;'
+  - mysql -e 'CREATE DATABASE myapp_test;'
   - gem install pkg-config
   - gem install nokogiri -v 1.13.9 -- --use-system-libraries
   - gem install mini_portile2 -v 2.8.4
