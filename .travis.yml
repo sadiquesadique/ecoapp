@@ -12,7 +12,6 @@ branches:
   - /^release-.*$/
 before_script:
   - cp config/database.travis.yml config/database.yml
-  - mysql -e 'CREATE DATABASE practice_test;'
   - bundle exec rake db:create RAILS_ENV=test
   - bundle exec rake db:migrate RAILS_ENV=test
 
@@ -21,6 +20,7 @@ services:
 
 before_install:
   - gem install bundler -v 2.3.7
+  - mysql -e 'CREATE DATABASE practice_test;'
   - gem install pkg-config
   - gem install nokogiri -- --use-system-libraries
   - gem install mini_portile2 -v 2.8.4
