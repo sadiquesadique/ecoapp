@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
     end
 
     def sayhello
-        puts "Hello
+        puts "Hello"
     end
 end
