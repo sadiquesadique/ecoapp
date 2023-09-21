@@ -20,3 +20,6 @@ before_install:
   - gem install bundler -v 2.3.7
   - gem install pkg-config
   - gem install nokogiri -- --use-system-libraries
+  - gem install mini_portile2-2.8.4
+  - gem install nokogiri-1.13.9
+  - gem install mysql2-0.5.5
