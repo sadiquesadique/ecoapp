@@ -1,18 +1,22 @@
 dist: focal
 language: ruby
+
 cache:
   bundler: true
   directories:
     - $HOME/.rvm/
+
 rvm:
   - 3.1.1
+
 branches:
   only:
   - main
   - /^release-.*$/
+
 before_script:
   - cp config/database.travis.yml config/database.yml
-  - bundle exec rake db:migrate RAILS_ENV=test
+  - bundle exec rake db:create db:migrate RAILS_ENV=test
 
 services:
   - mysql
@@ -21,7 +25,6 @@ before_install:
   - gem install bundler -v 2.3.7
   - mysql -e 'CREATE DATABASE practice_test;'
   - gem install pkg-config
-  - gem install nokogiri -- --use-system-libraries
+  - gem install nokogiri -v 1.13.9 -- --use-system-libraries
   - gem install mini_portile2 -v 2.8.4
-  - gem install nokogiri -v 1.13.9
   - gem install mysql2 -v 0.5.5
