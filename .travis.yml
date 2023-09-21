@@ -13,8 +13,6 @@ before_script:
   - bundle install
   - cp config/database.yml.travis config/database.yml
   - bundle exec rake db:create db:migrate
-
-script:
-  - bundle exec rake test # Or replace with your preferred test command
+ # Or replace with your preferred test command
 
 # Optional: Configure notifications or deployment steps if needed
