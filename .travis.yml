@@ -1,6 +1,4 @@
-#sudo: false # enables travis container
-sudo: required
-dist: bionic
+dist: focal
 language: ruby
 cache:
   bundler: true
