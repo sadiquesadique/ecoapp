@@ -18,3 +18,5 @@ services:
 
 before_install:
   - gem install bundler -v 2.3.7
+  - gem install pkg-config
+  - gem install nokogiri -- --use-system-libraries
