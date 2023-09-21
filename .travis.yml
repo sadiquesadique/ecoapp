@@ -1,9 +1,11 @@
+arch:
+  - amd64
 language: ruby
 rvm:
   - 3.1.1 # Specify the Ruby version you are using
 
 services:
-  - postgresql # If your app uses PostgreSQL, otherwise, specify the appropriate database service
+  - mysql # If your app uses PostgreSQL, otherwise, specify the appropriate database service
 
 before_install:
   - gem update --system
@@ -13,6 +15,4 @@ before_script:
   - bundle install
   - cp config/database.yml.travis config/database.yml
   - bundle exec rake db:create db:migrate
- # Or replace with your preferred test command
 
-# Optional: Configure notifications or deployment steps if needed
